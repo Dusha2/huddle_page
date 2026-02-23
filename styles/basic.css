@@ -4,23 +4,44 @@
 
 body {
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--color-deep-ocean);
+}
+
 
 .container {
     max-width: 1300px;
-    padding-inline: 10px;
+    padding-inline: 15px;
     margin-inline: auto;
-}
-
-.logo {
-    width: 240px;
-    height: 39px;
 }
 
 .logo-white {
     --logo-part1: var(--color-white);
     --logo-part2: var(--color-white);
 }
-
-
-

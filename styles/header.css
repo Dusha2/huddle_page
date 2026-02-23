@@ -1,0 +1,157 @@
+.header {
+    background: url(../assets/hero-bg.svg) center/cover no-repeat;
+    padding-block: 48px 72px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 70px;
+}
+
+.header_menu_logo {
+    width: 200px;
+    height: 31px;
+}
+
+.header_menu_btn {
+    color: var(--color-deep-ocean);
+    font-size: 14px;
+    line-height: 20px;
+
+    padding-block: 15px;
+    padding-inline: 64px;
+
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+    border-radius: 24px;
+
+    transition: color 0.3s ease;
+}
+
+
+.header_menu_btn:hover {
+    color: var(--color-gray);
+}
+
+.header_hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_hero_content {
+    max-width: 485px;
+}
+
+.header_hero_content h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-block-end: 32px;
+}
+
+.header_hero_content p {
+    color: var(--color-deep-ocean);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+    margin-block-end: 55px;
+}
+
+.header_hero_content a {
+    display: inline-block;
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 19px;
+    background-color: var(--color-pink);
+
+    margin-inline-start: 18px;
+    padding-block: 20px;
+    padding-inline: 70px;
+
+    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
+    border-radius: 28px;
+
+    transition: background-color 0.3s ease;
+}
+
+.header_hero_content a:hover {
+    background-color: var(--color-light-pink);
+}
+
+.header_hero_image {
+    max-width: 680px;
+}
+
+.header_hero_image img {
+    width: 100%;
+}
+
+
+
+@media (max-width: 1023.98px) {
+    .header_hero {
+        flex-direction: column;
+    }
+
+    .header_hero_content {
+        margin-block-end: 56px;
+        text-align: center;
+    }
+
+    .header_hero_content a {
+        margin-inline-start: 0;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .header_menu_btn {
+        padding-inline: 50px;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .header {
+        padding-block: 26px 38px;
+    }
+
+    .header_menu_logo {
+        width: 104px;
+        height: 16px;
+    }
+
+    .header_menu_btn {
+        padding-block: 6px;
+        padding-inline: 22px;
+    }
+
+    .header_menu {
+        margin-block-end: 80px;
+    }
+
+    .header_hero {
+        padding-inline: 15px;
+    }
+
+    .header_hero_content h1 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-block-end: 26px;
+    }
+
+    .header_hero_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header_hero_content a {
+        font-size: 12px;
+        line-height: 16px;
+
+        padding-block: 15px;
+        padding-inline: 60px;
+    }
+}
