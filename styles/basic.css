@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    padding-inline: 10px;
+    margin-inline: auto;
+}
+
+.logo {
+    width: 240px;
+    height: 39px;
+}
+
+.logo-white {
+    --logo-part1: var(--color-white);
+    --logo-part2: var(--color-white);
+}
+
+
+
