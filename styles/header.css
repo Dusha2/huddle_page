@@ -90,14 +90,13 @@
 }
 
 
-
 @media (max-width: 1023.98px) {
     .header_hero {
         flex-direction: column;
+        gap: 56px;
     }
 
     .header_hero_content {
-        margin-block-end: 56px;
         text-align: center;
     }
 

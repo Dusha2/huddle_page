@@ -1,7 +1,10 @@
 :root {
     --color-white: #fff;
-    --color-pink: #ff52c1;
+    --color-pink: #C83F96;
     --color-light-pink: #ff9adb;
-    --color-gray: #808e9a;
+    --color-gray: #6B7781;
     --color-deep-ocean: #00252e;
+
+    --font-family-base: "Open Sans", sans-serif;
+    --font-family-title: "Poppins", sans-serif
 }

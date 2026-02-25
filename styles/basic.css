@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-base);
 }
 
 h1,
@@ -29,11 +29,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-family-title);
     font-weight: 600;
     color: var(--color-deep-ocean);
 }
-
 
 .container {
     max-width: 1300px;
